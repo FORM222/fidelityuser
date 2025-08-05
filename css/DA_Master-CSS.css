@@ -1,0 +1,176 @@
+/* Global Styles */
+
+.da-mini-container {
+	font-family:"Fidelity Sans",Helvetica,Sans-serif;
+	font-size:1rem;
+	max-width:71.25em;
+	margin:0;
+	
+
+}
+
+.da-mini-container h1 {
+	font-size:2.125em;
+	line-height:1.25;
+	font-weight:300;
+	margin:0 0 0.75em 0;
+}
+.da-mini-container h2 {
+	font-size: 1.5em;
+	line-height: 1.25;
+	font-weight: 300;
+	margin:0 0 0.75em 0;
+}
+.da-mini-container p {
+	font-size:1.125em;
+	line-height:1.375;
+	font-weight:400;
+	margin:0;
+	padding-right:0;
+	
+}
+.da-cta a {
+	font-size:1.125em;
+	margin-top:1.75em;
+	font-weight:bold;
+	color:#1552C5;
+	text-decoration:none;
+}
+
+@media (min-width:47.5001em){
+.da-mini-content {
+	width:40%;
+	position:relative;
+    top:25%;
+    padding:0 5%;
+}}
+
+@media (max-width:47.5em) and (min-width:31.3125em){
+.da-mini-content {
+	width:50%;
+	position:relative;
+    top:20%;
+    padding:0 5%;
+}}
+
+@media (max-width:31.25em){
+.da-mini-content {
+	width:40%;
+	position:relative;
+    top:25%;
+    padding:0 5%;
+}}
+
+@media(min-width:47.51em){
+	.da-mini-container{background-size:cover !important;height:300px;}
+}
+
+@media (max-width:47.5em) and (min-width:31.3125em) {
+	.da-mini-container {background-size:cover !important;height:23.4375em; width:100%;}
+	.da-mini-container h1 {font-size:1.9375em !important;margin-bottom:1.25em;}	
+}
+@media (max-width:31.25em) {
+	.da-mini-container {background-size:cover !important;padding-bottom:75%;}
+	.da-mini-container h1 {width:100% !important;font-size:1.75em !important;margin-bottom:0.9375em;}	
+	.da-mini-container p {width:100% !important;font-size:1em !important;}
+	.da-mini-content {width:90%; margin:0;padding:2.5em 5% 0 5%;text-align:center;}
+	.da-cta a {font-size:1em !important;}
+}
+/*repath all images below to include a / before bin-public */
+
+/* DA - What We Offer */
+@media (min-width:47.5001em) {
+	#da-what-we-offer {background: #FFF url('../images/advice-planning/what-we-offer-l.png') bottom center}
+}
+@media (max-width:47.5em) and (min-width:31.3125em) {
+	#da-what-we-offer {background: #FFF url('../images/advice-planning/what-we-offer-m.png') bottom center;}
+}
+@media (max-width:31.25em) {
+	#da-what-we-offer {background: #FFF url('../images/advice-planning/what-we-offer-s.png') bottom center;}
+}	
+
+
+/* DA - Financial Basics */
+@media (min-width:47.5001em) {
+	#da-budget-debt {background: #FFF url('../images/advice-planning/financial-basics-l.png') bottom center}
+}
+@media (max-width:47.5em) and (min-width:31.3125em) {
+	#da-budget-debt {background: #FFF url('../images/advice-planning/financial-basics-m.png') bottom center;}
+}
+@media (max-width:31.25em) {
+	#da-budget-debt {background: #FFF url('../images/advice-planning/financial-basics-s.png') bottom center;}
+}	
+
+
+/* DA - Building Savings */
+@media (min-width:47.5001em) {
+	#da-build-savings {background: #FFF url('../images/advice-planning/building-savings-l.png') bottom center}
+}
+@media (max-width:47.5em) and (min-width:31.3125em) {
+	#da-build-savings {background: #FFF url('../images/advice-planning/building-savings-m.png') bottom center;}
+}
+@media (max-width:31.25em) {
+	#da-build-savings {background: #FFF url('../images/advice-planning/building-savings-s.png') bottom center;}
+}	
+
+
+
+/* DA - Growing & Managing Wealth */
+@media (min-width:47.5001em) {
+	#da-grow-wealth {background: #FFF url('../images/advice-planning/managing-and-growing-wealth-l.png') bottom center}
+}
+@media (max-width:47.5em) and (min-width:31.3125em) {
+	#da-grow-wealth {background: #FFF url('../images/advice-planning/managing-and-growing-wealth-m.png') bottom center;}
+}
+@media (max-width:31.25em) {
+	#da-grow-wealth {background: #FFF url('../images/advice-planning/managing-and-growing-wealth-s.png') bottom center;}
+}
+
+
+/* DA - Wealth Planning [BLOCK] */
+@media (min-width:47.5001em) {
+	#da-planning-block {background: #FFF url('../images/advice-planning/wp-promo-l.png') bottom center}
+}
+@media (max-width:47.5em) and (min-width:31.3125em) {
+	#da-planning-block {background: #FFF url('../images/advice-planning/wp-promo-m.png') bottom center;}
+}
+@media (max-width:31.25em) {
+	#da-planning-block {background: #FFF url('../images/advice-planning/wp-promo-s.png') bottom center;}
+}
+
+
+/* DA - Wealth Planning */
+@media (min-width:47.5001em) {
+	#da-wealth-plan {background: #FFF url('../images/advice-planning/wealth-planning-l.png') bottom center}
+}
+@media (max-width:47.5em) and (min-width:31.3125em) {
+	#da-wealth-plan {background: #FFF url('../images/advice-planning/wealth-planning-m.png') 75% center;}
+}
+@media (max-width:31.25em) {
+	#da-wealth-plan {background: #FFF url('../images/advice-planning/wealth-planning-s.png') bottom center;}
+}
+
+
+/* DA - Preparing to Retire */
+@media (min-width:47.5001em) {
+	#da-ret-prep {background: #FFF url('../images/advice-planning/retirement-l.png') bottom center}
+}
+@media (max-width:47.5em) and (min-width:31.3125em) {
+	#da-ret-prep {background: #FFF url('../images/advice-planning/retirement-m.png') bottom center;}
+}
+@media (max-width:31.25em) {
+	#da-ret-prep {background: #FFF url('../images/advice-planning/retirement-s.png') bottom center;}
+}
+
+
+/* DA - Life Events */
+	
+@media (min-width:47.5001em) {
+	#da-life-events {background: #FFF url('../images/advice-planning/life-events-l.png') bottom center}
+}
+@media (max-width:47.5em) and (min-width:31.3125em) {
+	#da-life-events {background: #FFF url('../images/advice-planning/life-events-m.png') bottom center;}
+}
+@media (max-width:31.25em) {
+	#da-life-events {background: #FFF url('../images/advice-planning/life-events-s.png') bottom center;}
+}

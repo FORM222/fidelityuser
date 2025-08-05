@@ -1,0 +1,10 @@
+#fmr-horizontal-component {
+  display: flex;
+}
+#fmr-horizontal-component > li:nth-child(1) {
+  text-align: left;
+  flex-grow: 1;
+}
+#findtherightsupportFLX > div.scl-flex-card--header > h2 {
+  padding: 0px;
+}

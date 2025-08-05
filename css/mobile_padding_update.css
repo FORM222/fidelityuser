@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 47.5em){
+
+.scl-flexible-single-column--pads .scl-flexible-images-with-column-1 {
+ padding: 0px 0 2.5em !important;
+}
+
+
+.scl-flexible-images-with-column--group-headline {
+ padding: 0 0 24px !important;
+}
+
+
+
+.scl-flx-40-60 .scl-flexible-images-with-column-2, .scl-flx-50-50 .scl-flexible-images-with-column-2, .scl-flx-60-40 .scl-flexible-images-with-column-2 {
+    width: 100%;
+    padding-top: 0em !important;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+
+
+}

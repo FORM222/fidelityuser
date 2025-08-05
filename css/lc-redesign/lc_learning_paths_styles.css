@@ -1,0 +1,23 @@
+/* Learning Path Pages */
+
+nav.toc {
+    display: none;
+}
+
+nav .toc--list {
+    border-bottom: none;
+}
+
+#mini-container .navigation-dropdown {
+    padding: 2em;
+}
+
+#mini-container .navigation-dropdown form {
+    display: flex;
+    justify-content: center;
+}
+
+#mini-container .navigation-dropdown form select {
+    margin-right: 1em;
+    font-size: 90%;
+}

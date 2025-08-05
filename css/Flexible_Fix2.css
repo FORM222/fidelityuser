@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+#responsive-main .scl-flexible-images-with-column--group {
+    padding: 1.875em 5% 0 5%;
+}
+
+@media (max-width: 47.5em){
+.scl-flexible-single-column--pads .scl-flexible-images-with-column-1 {
+    padding: 0 0 2.5em !important;
+}}
+
